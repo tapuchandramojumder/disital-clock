@@ -10,6 +10,8 @@ function digitalClock() {
 
   let timeFormate = 'AM';
 
+  month = month + 1;
+
   if (hours === 0) {
     hours = 12;
   }
