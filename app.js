@@ -1,7 +1,7 @@
 function digitalClock() {
   let date = new Date(); //Bangladesh Standard Time
   let hours = date.getHours();
-  let minutes = date.getHours();
+  let minutes = date.getMinutes();
   let second = date.getSeconds();
 
   let year = date.getFullYear();
